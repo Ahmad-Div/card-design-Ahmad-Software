@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Fira+Sans:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Inconsolata:wght@600&family=Lobster&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.7rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+
+.first-card {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 14rem;
+    padding: 0.8rem 0;
+    border-radius: 6px;
+}
+
+#card-img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 6px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.main-img:hover #card-img {
+    opacity: 0.3;
+    transform: scale(1.1);
+    background-color: hsl(178, 100%, 50%);
+}
+
+.view-img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 35.5%;
+    left: 49%;
+    opacity: 0;
+}
+
+.main-img:hover .view-img {
+    opacity: 0.7;
+}
+
+
+
+
+.card-content {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+
+
+
+
+
+#money {
+    color: hsl(178, 100%, 50%);
+    padding-right: 4.5rem;
+}
+
+#ethereum {
+    width: 0.5rem;
+    height: 0.8rem;
+}
+
+.ethereum-img {
+    padding-top: 0.5rem;
+}
+
+.clock {
+    padding-top: 0.35rem;
+}
+
+#clock-icon {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.day-left {
+    padding-left: 0.2rem;
+}
+
+
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+hr {
+    width: 75%;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 3px;
+
+}
+
+
+.bottom-card {
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+}
+
+.bottom-card img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+
+.bottom-card p {
+    padding-left: 1rem;
+}
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+
+@media(width:1024px) {
+    main {
+        padding-top: 5rem;
+    }
+}
